@@ -108,7 +108,6 @@ export default function Home() {
       <div className="up-gallery">
         <figure className="up-family"><img src="/up-family-traditional.jpg" alt="UP 機器人模組家族，從單機器人到群體智慧協作" /><figcaption><strong>模組家族</strong><small>從單機到群體智慧</small></figcaption></figure>
         <figure className="up-terrain"><img src="/up-terrain-traditional.jpg" alt="UP 機器人全地形通行能力" /><figcaption><strong>全地形能力</strong><small>狹窄通道依然靈活</small></figcaption></figure>
-        <figure className="up-side"><img src="/up-side.jpg" alt="UP 機器人低重心側面結構" /><figcaption><strong>低重心設計</strong><small>穩定跨越多種地面</small></figcaption></figure>
         <figure className="up-platform"><img src="/up-platform.png" alt="UP 機器人開放式模組平台" /><figcaption><strong>開放式平台</strong><small>一個底盤，多種任務</small></figcaption></figure>
       </div>
       <div className="up-product-pair" aria-label="UP 機器人機型展示">
