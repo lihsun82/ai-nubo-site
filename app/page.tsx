@@ -76,7 +76,7 @@ export default function Home() {
         <div className="about-lead"><p>NUBO 長期專注於<strong>服務型機器人、電梯梯控、門口機與智慧建築系統 API 整合</strong>，從機器人跨樓層移動、電梯呼叫、樓層授權，到門禁、門口機與建築設備聯動，持續累積實際場域導入經驗。</p><p>我們不是在機器人市場成熟之後才開始做系統整合，而是在服務型機器人發展早期，就開始投入<strong>梯控串接、設備通訊與跨系統自動化</strong>的研究與開發。</p></div>
       </div>
 
-      <div className="about-core"><div className="about-core-head"><span>CORE STRENGTHS</span><h3>我們的核心優勢</h3></div><div className="about-advantages">{aboutAdvantages.map(([num,title,body])=><article key={num}><div><h4>{title}</h4><p>{body}</p></div></article>)}</div></div>
+      <div className="about-core"><div className="about-core-head"><span>CORE STRENGTHS</span><h3>我們的核心優勢</h3></div><div className="about-advantages">{aboutAdvantages.map(([num,title,body])=><article key={num}><div><h4>{title}</h4><p>{body}</p>{title === '多品牌電梯梯控整合能力' && <figure className="elevator-brand-board"><img src="/elevator-brands.png" alt="多品牌電梯梯控整合合作品牌標誌" /></figure>}</div></article>)}</div></div>
 
       <div className="building-hub">
         <div className="hub-copy"><span>FROM DEVICE TO BUILDING</span><h3>從單一設備串接，<br />走向整棟建築控制</h3><p>NUBO 將不同設備與服務整合成一套可持續擴充的智慧建築中樞。</p></div>
