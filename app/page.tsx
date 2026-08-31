@@ -155,7 +155,7 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="ai-section shell" id="ai"><div className="ai-card"><div><span className="ai-badge">AINUBO AI</span><h2>機器人負責移動，<br />AI 負責讓營運更聰明。</h2><p>Ainubo AI 串接任務、數據與決策。旅宿收益系統仍是我們的專業之一，但不再是網站主角，而是完整智慧營運方案的一部分。</p><a href="#contact">了解 AI 整合 <span>↗</span></a></div><div className="ai-graphic"><i /><i /><i /><span>AI</span></div></div></section>
+    <section className="ai-section shell" id="ai"><div className="ai-card"><div><span className="ai-badge">AINUBO AI</span><h2>機器人負責移動，<br />AI 負責讓營運更聰明。</h2><p>Ainubo AI 串接任務、數據與決策。旅宿收益系統仍是我們的專業之一，但不再是網站主角，而是完整智慧營運方案的一部分。</p><a href="#contact">了解 AI 整合 <span>↗</span></a></div><div className="ai-video-stage" aria-label="AINUBO AI 機器人移動影片"><div className="ai-video-shell"><video src="/ainubo-ai-motion.mp4" autoPlay muted loop playsInline preload="metadata" /></div><div className="ai-video-caption"><span>AI MOBILITY FLOW</span><strong>任務判斷 × 自主移動 × 場域協作</strong></div></div></div></section>
 
     <section className="contact shell" id="contact">
       <div className="contact-copy"><div className="eyebrow light"><span /> LET&apos;S BUILD THE NEXT SERVICE</div><h2>讓機器人，<br />加入你的服務團隊</h2><p>告訴我們你的場域與需求，敦叡科技將協助完成評估、規劃與導入。</p></div>
