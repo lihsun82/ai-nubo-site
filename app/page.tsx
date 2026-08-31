@@ -76,6 +76,8 @@ export default function Home() {
         <div className="about-lead"><p>NUBO 長期專注於<strong>服務型機器人、電梯梯控、門口機與智慧建築系統 API 整合</strong>，從機器人跨樓層移動、電梯呼叫、樓層授權，到門禁、門口機與建築設備聯動，持續累積實際場域導入經驗。</p><p>我們不是在機器人市場成熟之後才開始做系統整合，而是在服務型機器人發展早期，就開始投入<strong>梯控串接、設備通訊與跨系統自動化</strong>的研究與開發。</p></div>
       </div>
 
+      <section className="ai-section" id="ai"><div className="ai-card"><div><span className="ai-badge">AINUBO AI</span><h2>機器人負責移動，<br />AI 負責讓營運更聰明。</h2><p>Ainubo AI 串接任務、數據與決策。旅宿收益系統仍是我們的專業之一，但不再是網站主角，而是完整智慧營運方案的一部分。</p><a href="#contact">了解 AI 整合 <span>↗</span></a></div><div className="ai-video-stage" aria-label="AINUBO AI 機器人移動影片"><div className="ai-video-shell"><video src="/ainubo-ai-motion.mp4" controls playsInline preload="metadata" /></div><div className="ai-video-caption"><span>AI MOBILITY FLOW</span><strong>任務判斷 × 自主移動 × 場域協作</strong></div></div></div></section>
+
       <div className="about-core"><div className="about-core-head"><span>CORE STRENGTHS</span><h3>我們的核心優勢</h3></div><div className="about-advantages">{aboutAdvantages.map(([num,title,body])=><article key={num}><div><h4>{title}</h4><p>{body}</p>{title === '多品牌電梯梯控整合能力' && <figure className="elevator-brand-board"><img src="/elevator-brands.png" alt="多品牌電梯梯控整合合作品牌標誌" /></figure>}</div></article>)}</div></div>
 
       <div className="building-hub">
@@ -154,8 +156,6 @@ export default function Home() {
         <article className="project-card project-kca"><div className="project-logo-stage"><img src="/project-kca.png" alt="KCA A Panasonic Company 合作實績 Logo" /></div><div className="project-meta"><span>PROJECT EXPERIENCE</span><strong>KCA · A Panasonic Company</strong></div></article>
       </div>
     </section>
-
-    <section className="ai-section shell" id="ai"><div className="ai-card"><div><span className="ai-badge">AINUBO AI</span><h2>機器人負責移動，<br />AI 負責讓營運更聰明。</h2><p>Ainubo AI 串接任務、數據與決策。旅宿收益系統仍是我們的專業之一，但不再是網站主角，而是完整智慧營運方案的一部分。</p><a href="#contact">了解 AI 整合 <span>↗</span></a></div><div className="ai-video-stage" aria-label="AINUBO AI 機器人移動影片"><div className="ai-video-shell"><video src="/ainubo-ai-motion.mp4" autoPlay muted loop playsInline preload="metadata" /></div><div className="ai-video-caption"><span>AI MOBILITY FLOW</span><strong>任務判斷 × 自主移動 × 場域協作</strong></div></div></div></section>
 
     <section className="contact shell" id="contact">
       <div className="contact-copy"><div className="eyebrow light"><span /> LET&apos;S BUILD THE NEXT SERVICE</div><h2>讓機器人，<br />加入你的服務團隊</h2><p>告訴我們你的場域與需求，敦叡科技將協助完成評估、規劃與導入。</p></div>
