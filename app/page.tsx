@@ -8,8 +8,6 @@ const capabilities = [
   ['04', '營運支援', '從評估、導入、教育訓練到維運，由在地團隊完整承接。', 'LOCAL OPERATIONS'],
 ];
 
-const scenes = ['飯店旅宿', '醫療院所', '商辦大樓', '餐飲零售'];
-
 const aboutAdvantages = [
   ['01', '服務型機器人梯控整合經驗', '長期累積不同品牌、不同架構電梯系統的串接經驗，讓機器人真正具備自主跨樓層服務能力，而不只是單層移動設備。'],
   ['02', '多品牌電梯梯控整合能力', '從傳統梯控介面、I/O、控制模組，到現代化智慧串接，NUBO 持續建立跨品牌、跨系統的整合能力。'],
@@ -146,8 +144,6 @@ export default function Home() {
       <div className="cap-ticker" aria-hidden="true"><div className="cap-ticker-track"><span>AUTONOMOUS NAVIGATION</span><i /> <span>MULTI-ROBOT FLEET</span><i /> <span>SMART BUILDING INTEGRATION</span><i /> <span>LOCAL SERVICE SUPPORT</span><i /> <span>AUTONOMOUS NAVIGATION</span><i /> <span>MULTI-ROBOT FLEET</span><i /></div></div>
       <div className="cap-grid">{capabilities.map(([num,title,body,label])=><article key={num}><div className="cap-card-top"><small>{label}</small></div><div className={`cap-icon c${num}`}><i /></div><div className="cap-card-copy"><h3>{title}</h3><p>{body}</p></div></article>)}</div>
     </section>
-
-    <section className="scenes"><div className="shell"><div className="scene-intro"><span>DEPLOYED WHERE SERVICE HAPPENS</span><h2>走進每一個<br />需要服務的地方。</h2></div><div className="scene-list">{scenes.map((scene)=><a href="#contact" key={scene} aria-label={`洽詢${scene}機器人方案`}><strong>{scene}</strong><i>↗</i></a>)}</div></div></section>
 
     <section className="projects shell" id="projects">
       <div className="section-kicker">PROJECT EXPERIENCE <span>合作實績</span></div>
